@@ -3,4 +3,7 @@ let computerScore = 0;
 let currentRoundNumber = 1;
 
 // Write your code below:
+function generateTarget(num) {
+  return Math.floor(Math.random() * num);
+}
 
