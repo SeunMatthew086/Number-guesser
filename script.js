@@ -29,3 +29,7 @@ function updateScore(winner) {
     computerScore++;
   }
 }
+
+function advanceRound() {
+  currentRoundNumber++;
+}
