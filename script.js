@@ -21,3 +21,11 @@ function compareGuesses(humanNum,compNum,target) {
   }
   }
 }
+
+function updateScore(winner) {
+  if (winner === 'human') {
+    humanScore++;
+  } else if (winner === 'computer') {
+    computerScore++;
+  }
+}
